@@ -1256,7 +1256,7 @@ i.fa-twitter:hover {
 
   /* footer */
   .footer {
-    height: 300px;
+    height: 320px;
   }
   .footer-section {
     padding-top: 0;
@@ -1282,6 +1282,8 @@ i.fa-twitter:hover {
   .footer-section .middle {
     margin-right: 20px;
     margin-top: 55px;
+    display: flex;
+    flex-direction: column;
   }
   .footer-section .middle {
     margin-left: 10px;
@@ -1509,7 +1511,7 @@ i.fa-twitter:hover {
   }
   /* footer */
   .footer {
-    height: 300px;
+    height: 320px;
   }
   .footer-section {
     padding-top: 0;
@@ -1535,6 +1537,8 @@ i.fa-twitter:hover {
   .footer-section .middle {
     margin-right: 20px;
     margin-top: 55px;
+    display: flex;
+    flex-direction: column;
   }
   .footer-section .middle {
     margin-left: 10px;
@@ -1765,7 +1769,7 @@ i.fa-twitter:hover {
   }
   /* footer */
   .footer {
-    height: 300px;
+    height: 320px;
   }
   .footer-section {
     padding-top: 0;
@@ -1791,6 +1795,8 @@ i.fa-twitter:hover {
   .footer-section .middle {
     margin-right: 20px;
     margin-top: 55px;
+    display: flex;
+    flex-direction: column;
   }
   .footer-section .middle {
     margin-left: 10px;
@@ -1897,6 +1903,10 @@ i.fa-twitter:hover {
   .footer-section {
     padding-top: 100px;
   }
+  .footer-app-img {
+    padding-bottom: 20px;
+    padding-left: 30px;
+  }
 }
 @media (max-width: 1024px) and (min-width: 769px) {
   /* side menu */
@@ -1985,6 +1995,9 @@ i.fa-twitter:hover {
   .footer-section {
     padding-top: 100px;
   }
+  .footer-app-img {
+    padding-left: 25px;
+  }
 }
 @media (width: 1440px) {
   .sticky-nav {
@@ -1992,6 +2005,9 @@ i.fa-twitter:hover {
   }
   .sticky-parent .btn-parent {
     padding-right: 80px;
+  }
+  .footer-section h2 {
+    left: 95px;
   }
 }
 @media (width: 540px) and (height: 720px) {
@@ -2028,6 +2044,10 @@ i.fa-twitter:hover {
   }
   .map {
     display: none;
+  }
+  /* footer */
+  .footer {
+    height: 520px;
   }
   .footer-section .end,
   .footer-section .middle {
